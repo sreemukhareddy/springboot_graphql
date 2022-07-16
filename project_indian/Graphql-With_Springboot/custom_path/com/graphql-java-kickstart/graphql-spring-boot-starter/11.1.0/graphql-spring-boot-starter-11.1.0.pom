@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.graphql-java-kickstart</groupId>
+  <artifactId>graphql-spring-boot-starter</artifactId>
+  <version>11.1.0</version>
+  <name>graphql-spring-boot</name>
+  <description>GraphQL Spring Framework Boot</description>
+  <url>https://github.com/graphql-java-kickstart/graphql-spring-boot</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/graphql-java-kickstart/spring-boot-graphql/blob/master/LICENSE.md</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>apottere</id>
+      <name>Andrew Potter</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/graphql-java-kickstart/graphql-spring-boot</connection>
+    <developerConnection>https://github.com/graphql-java-kickstart/graphql-spring-boot</developerConnection>
+    <url>https://github.com/graphql-java-kickstart/graphql-spring-boot</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.graphql-java-kickstart</groupId>
+      <artifactId>graphql-spring-boot-autoconfigure</artifactId>
+      <version>11.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.4.5</version>
+        <scope>import</scope>
+        <type>pom</type>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>

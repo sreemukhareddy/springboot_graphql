@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.graphql-java</groupId>
+  <artifactId>graphiql-spring-boot-starter</artifactId>
+  <version>5.0.2</version>
+  <dependencies>
+    <dependency>
+      <groupId>com.graphql-java</groupId>
+      <artifactId>graphiql-spring-boot-autoconfigure</artifactId>
+      <version>5.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <name>graphql-spring-boot</name>
+  <description>GraphQL Spring Framework Boot</description>
+  <url>https://github.com/graphql-java/graphql-spring-boot</url>
+  <scm>
+    <url>https://github.com/graphql-java/graphql-spring-boot</url>
+    <connection>https://github.com/graphql-java/graphql-spring-boot</connection>
+    <developerConnection>https://github.com/graphql-java/graphql-spring-boot</developerConnection>
+  </scm>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/graphql-java/spring-boot-graphql/blob/master/LICENSE.md</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>apottere</id>
+      <name>Andrew Potter</name>
+    </developer>
+  </developers>
+</project>
